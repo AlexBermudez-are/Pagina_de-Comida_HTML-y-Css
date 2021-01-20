@@ -1,0 +1,270 @@
+body{
+    background-image: url(../imagenes/fondo.jpg);
+}
+.padre{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: auto;
+    color: white;
+    background-image: url(../imagenes/buensabor.jpg);
+}
+.elbuen{
+    font-family: 'Dancing Script', cursive;
+    font-size: 12mm;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+.sabor{
+    font-family: 'Dancing Script', cursive;
+    font-size: 12mm;
+    margin-left: 85px;
+}
+.logo{
+    width: 70mm;
+    height: 70mm;
+    margin-left: 10px;
+    border-radius: 50%;
+    padding: 1mm;
+    border: 2px solid rgb(13, 248, 209);
+} 
+body{
+    background-color: beige;
+    color: black;
+}
+.etiquetado{
+    height: 40px;
+    background-color: rgb(2, 44, 32);
+    margin-top: -5mm;
+
+}
+.margen{
+    padding: 0%;
+    margin-top: 0;
+    display: block;
+    list-style: none;
+}
+.up{
+    float: left;
+}
+.caja{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    display:block;
+    padding: 5px 25px;
+}
+.fecha{
+    text-align: right;
+    color: white;
+    font-size: 25px;
+    margin-right: 5mm;
+    margin-top: 5mm;
+    padding: 5px 25px;
+}
+.up:hover{
+    background-color:rgb(0, 24, 17);
+}
+h2{
+    font-size: 40px;
+    color: black;
+    border: 2px solid rgb(13, 248, 209);
+    background-color: beige;
+    font-family: 'Courgette', cursive;
+}
+.texto{
+    font-size: 25px;
+    text-align: left;
+    margin-left: -25mm;
+}
+.exterior{
+    float: right;
+    height: 400px;
+    width: 450px;
+    margin-top: -120mm;
+    margin-right: 15mm;
+    border-radius: 5%;
+}
+.menu{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.comida{
+    text-align: left;
+    font-size: 30px;
+    list-style: none;
+}
+.prepa{
+    font-size: 25px;
+    margin-left: -40mm;
+}
+.albo{
+    width: 450px;
+    height: 250px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -300px;
+    border-radius: 1%;
+}
+.milanesa{
+    font-size: 25px;
+    margin-left: -58mm;
+}
+.res{
+    width: 450px;
+    height: 250px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -300px;
+    border-radius: 1%;
+}
+.pastel{
+    font-size: 25px;
+    margin-left: -44mm
+}
+.pasteldepapa{
+    width: 450px;
+    height: 250px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -250px;
+    border-radius: 1%;
+    }
+.out{
+        font-size: 25px;
+        text-align: right;
+        margin-right: 20mm;
+        margin-top: -100px;
+    }
+.inside{
+    width: 500px;
+    height: 350px;
+    float: left;
+    margin-right: 100px;
+    margin-top: -480px;
+    border-radius: 5%;
+    }
+.torta{
+    font-size: 25px;
+    margin-left: -28mm;
+}
+.frambuesa{
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -250px;
+    border-radius: 1%;
+}
+.muffin{
+    font-size: 25px;
+    margin-left: -28mm;
+    margin-top: 50px;
+}
+.muffins{
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -200px;
+    border-radius: 1%;
+}
+.flan{
+    font-size: 25px;
+    margin-left: -28mm;
+}
+.flan2{
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -250px;
+    border-radius: 1%;
+}
+.b{
+    width: 322mm;
+    height: 300mm;
+}
+.bo{
+    width: 322mm;
+    height: 250mm;
+}
+.boxer{
+    width: 322mm;
+    height: 330mm;
+}
+.boxes{
+    width: 322mm;
+    height: 350mm;
+}
+.box{
+    width: 322mm;
+    height: 250mm;
+}
+.pedido{
+    width: 200px;
+    height: 30px;
+}
+.encargo{
+    margin-top: 50px;
+    margin-left: 520px;
+}
+.dulce{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.datos{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.direccion{
+    margin-top: 50px;
+    margin-left: 520px;
+}
+.ordenechef{
+    width: 300px;
+    height: 550px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 5%;
+}
+.chefsug{
+    width: 70mm;
+    height: 70mm;
+    margin-left: 470px;
+    border-radius: 50%;
+    padding: 1mm;
+    border: 2px solid rgb(13, 248, 209);
+}
+.contacto{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.fb{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.ig{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.tw{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 200px;
+}

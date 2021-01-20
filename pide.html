@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Restaurante - El buen sabor donde el buen sabor es algo personal
+        </title>
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="padre">
+            <div class="elbuen">
+            <h1>EL BUEN</h1>
+            </div>
+        <img class="logo" src="./imagenes/chefcito.jpg" alt="chef-del-buen-sabor">
+            <div class="sabor">
+            <h1>SABOR</h1>
+            </div> 
+        </div>
+    </div>
+    <div class="etiquetado">
+        <header>
+            <ul class="margen">
+                <li class="up"> <a class="caja" href="index.html">Inicio</a></li>
+                <li class="up"> <a class="caja" href="galeria.html">Platillos</a></li>
+                <li class="up"> <a class="caja" href="postres.html">Postres</a></li>
+                <li class="up"> <a class="caja" href="contacto.html">Contactanos</a></li>
+            </ul>
+             <p class="fecha">Miercoles 20 de Enero</p>
+        </header>
+    </div>
+    <fieldset class="box">
+        <h2 style="text-align: center;">Haga su Pedido Aqui</h2>
+    <div class="menu">
+        Platillos
+    </div>
+<img class="ordenechef" src="./imagenes/ordena.jpg" alt="chef">
+    <div class="encargo">
+        <select class="pedido">
+            <option value="fuerte">Espagueti</option>
+            <option value="fuerte">Milanesas</option>
+            <option value="fuerte">Pastel de Papa</option>
+        </select>
+        <form action="script.php" method="post"></form>
+        <label for="numero">
+            cantidad
+        </label>
+        <br>
+        <select class="pedido">
+            <option value="cantidad">1</option>
+            <option value="cantidad">2</option>
+            <option value="cantidad">3</option>
+            <option value="cantidad">4</option>
+            <option value="cantidad">5</option>
+        </select>
+    </div>    
+    <div class="dulce">
+        Postre
+    </div>
+    <div class="encargo">
+        <select class="pedido">
+            <option value="suave">Torta de Frambuesa</option>
+            <option value="suave">Muffins</option>
+            <option value="suave">Flan</option>
+        </select>
+        <br>
+        <label for="numero">
+            cantidad
+        </label>
+            <br>
+        <select class="pedido">
+            <option value="cantidad">1</option>
+            <option value="cantidad">2</option>
+            <option value="cantidad">3</option>
+            <option value="cantidad">4</option>
+            <option value="cantidad">5</option>
+             </select>
+        </label>
+    </div>
+    <div class="datos">
+        Datos Generales
+    </div>
+    <div class="direccion">
+        <form action="../../form-result.php" method="post" target="_blank">
+            <p>Nombre y Apellido:
+            <br>
+            <input type="text" name="direccion"></p>
+            <p>Direccion:
+            <br>
+            <input type="text" name="numero"></p>
+            <p>Numero:
+            <br>
+            <input type="text" name="deporte" placeholder=""></p>
+            <p>
+            <input type="submit" value="Enviar pedido">
+            <input type="reset" value="Restaurar datos">
+            </p>
+        </form>
+     </div>
+    </fieldset>
+    </body>
+</html>
